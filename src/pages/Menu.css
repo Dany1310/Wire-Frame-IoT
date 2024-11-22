@@ -1,0 +1,70 @@
+/* Fondo general */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #001428, #1a1f3c);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .menu-container {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .team-button {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    width: 100px;
+  }
+  
+  .team-button i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .team-button.active i {
+    color: #00ff00; /* Verde para equipos activos */
+  }
+  
+  .team-button.inactive i {
+    color: #ff0000; /* Rojo para equipos inactivos */
+  }
+  
+  .team-button span {
+    display: block;
+    margin-top: 5px;
+  }
+  
+  .team-button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+  }
+  

@@ -1,0 +1,22 @@
+body {
+  background-color: blue;
+}
+.carousel{
+  max-width: 400px;
+}
+
+.carousel-inner {
+  height: 200%; /* Ajusta esto al tamaño máximo que desees */
+  overflow: hidden; /* Para evitar que las imágenes que sobresalgan del contenedor sean visibles */
+}
+
+.carousel-item img {
+  /*object-fit: cover;  Esto asegura que las imágenes cubran el área sin deformarse */
+  width: 100%;
+  height: 100%;
+}
+
+.txt {
+  color: white;
+
+}
