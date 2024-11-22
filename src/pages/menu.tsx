@@ -54,4 +54,3 @@ const Menu: React.FC = () => {
 
 export default Menu;
 
-
